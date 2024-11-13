@@ -1,4 +1,4 @@
-const { obterStatus } = require('../src/exibirStatus');
+const { obterStatus } = require('../src/obterStatus');
 
 test('Média inferior a 4.0', () => {
   expect(obterStatus(3.5)).toBe('Reprovado por média');
